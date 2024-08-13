@@ -1,0 +1,83 @@
+.container{
+    /*by using display:flex and flex-direction: column, it allows the items to be top to bottom and not side by side*/
+    display: flex;
+    flex-direction: column; 
+    margin: auto;
+    /*the distance between the container and the top of the page*/
+    margin-top: 50px;
+    background: #fff;
+    /*the padding at the bottom of the container*/
+    padding-bottom: 30px;
+    width: 500px;
+    box-shadow: 0px 5px 10px 0px #9e8dda;
+}
+.headerimage{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    height: 420px; /*remove this if u dont want header on top of image*/
+}
+.text{
+    color:#63578d;
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+.header{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.input{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    width: 400px;
+    height: 50px;
+    background: rgb(226, 226, 231);
+    border-radius: 5px;
+}
+.input input{
+    background-color: rgb(226, 226, 231);
+    font-size: 19px;
+    border: none;
+    outline: none;
+    height: 59px;
+    width: 360px;
+}
+.submit-container{
+    display: flex;
+    gap: 30px;
+    margin: 30px auto;   
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 185px;
+    height: 50px;
+    background: rgb(46, 61, 88);
+    border-radius: 50px;
+    color: white;
+    background-color: #63578d;  
+}
+
+.signsubmit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 185px;
+    height: 50px;
+    background: rgb(46, 61, 88);
+    border-radius: 50px;
+    color: white;
+    background-color: #dab98d;  
+}
+
